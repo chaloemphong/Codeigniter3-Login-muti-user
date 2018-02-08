@@ -11,7 +11,7 @@ class Login extends CI_Controller {
         $this->load->model('LoginModel', 'login');
     }
 
-
+//load the view index
     public function index() {
         //if not load the login page
         $this->load->view('header');
